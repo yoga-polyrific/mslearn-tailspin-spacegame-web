@@ -2,8 +2,9 @@ trigger:
     - '*'
     
 pool:
-  vmImage: 'ubuntu-20.04'
+  vmImage: Default
   demands:
+  - agent.name -equals cobiububu-agent
   - npm
     
 variables:
