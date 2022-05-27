@@ -2,7 +2,7 @@ trigger:
     - '*'
     
 pool:
-  vmImage: Default
+  name: Default
   demands:
   - agent.name -equals cobiububu-agent
   - npm
