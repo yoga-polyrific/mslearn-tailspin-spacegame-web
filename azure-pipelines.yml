@@ -26,7 +26,7 @@ steps:
 - script: './node_modules/.bin/node-sass $(wwwrootDir) --output $(wwwrootDir)'
   displayName: 'Compile Sass assets'
     
-- script: npm install -g gulp-cli -y
+- script: sudo npm install -g gulp-cli -y
 
 - task: gulp@1
   displayName: 'Run gulp tasks'
